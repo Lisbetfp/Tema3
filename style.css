@@ -1,0 +1,159 @@
+*{
+  box-sizing: border-box;
+  font-family: "open sans";
+}
+
+/*Wrapper*/
+body{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+/*Wrapper slut*/
+
+header i{
+  margin: 5vh 5%;
+  float: right;
+}
+
+/*styre logoet*/
+img{
+  width: 25%;
+  height: auto;
+  float: left;
+  margin: 2% 4%;
+  min-width: 150px
+}
+/*logo slut*/
+
+/*link styling Lisbet*/
+a{
+  color: rgb(18, 73, 88);
+  text-decoration: none;
+}
+/*linkstyling slut*/
+
+topfoto{
+  width: auto;
+  height: auto;
+min-width: 150px
+
+footer{
+  text-align: center;
+  bottom: 3%;
+  max-width: 1200px;
+  width: 100%;
+  position: absolute;
+  border-top: 1px solid rgb(198, 198, 198);
+}
+
+footer p{
+  display: inline;
+  font-size: 1.1em;
+  margin-right: 2%;
+}
+
+footer p a{
+  color: rgb(18, 73, 88);
+  text-decoration: none;
+}
+
+footer i{
+  margin-top: 3%;
+}
+
+/*hamburger menu starter her*/
+.navi{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  }
+/*hvordan ser indholdet ud i hamburgermenuen*/
+.overlayer{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 10%;
+  margin-top: 30px;
+}
+/*hvordan linkene ser ud i overlay*/
+.navi a{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+/*giver farve nÃ¥r der holdes over indholdet*/
+.navi a:hover .navi a:focus{
+  color: #f1f1f1;
+}
+/*position af x/lukke knappen i menuen*/
+.navi .closebut{
+  position: absolute;
+  top: 15px;
+  right: 5%;
+  padding: 0;
+  font-size: 60px;
+}
+
+span{
+  display: block;
+  font-size: 2.5em;
+  color: #07395a;
+  cursor: pointer;
+  float: right;
+  margin: 3vh 5vh;
+  }
+  /*menuen slutter her*/
+
+  /*fjerner navigations*/
+  nav{
+    display: none;
+  }
+
+
+@media screen and (min-width: 580px) {
+
+header{
+  border-bottom: 1px solid rgb(198, 198, 198);
+}
+
+header i{
+  float: right;
+  margin-top: 5%;
+  margin-right: 6%;
+}
+
+nav{
+  display: block;
+  background-color: red;
+  clear: both;
+}
+
+nav li{
+  float: right;
+  list-style: none;
+  margin: 1% 2%;
+}
+
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(163, 88, 34);
+}
+
+/*slutter navigation*/
+Span{
+  display: none;
+  }
+
+}

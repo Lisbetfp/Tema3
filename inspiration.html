@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/a727efe8ae.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div>
+
+     <a href="index.html"><img src="img/logo2.png" alt="logo"></a>
+
+        <div id=mynav class=navi> <!--yderste lag-->
+        <a href="javascript:void(0)" class="closebut" onclick="closeNav()">&times;</a> <!-- knap til at lukke nav-->
+
+        <div class="overlayer"> <!--indhold i yderste lag-->
+          <a href="index.html">FORSIDE</a>
+          <a href="mobler.html">MØBLER</a>
+          <a href="inspiration.html">INSPIRATION</a>
+          <a href="vedligeholdelse.html">VEDLIGEHOLDELSE</a>
+          <a href="kontakt.html">KONTAKT</a>
+        </div>
+
+      </div>
+
+      <span onclick="openNav()">☰</span> <!--open nav-->
+
+      <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+
+    </div>
+
+    <nav>
+      <li><a href="kontakt.html">KONTAKT</a></li>
+      <li><a href="vedligeholdelse.html">VEDLIGEHOLDELSE</a></li>
+      <li><a href="inspiration.html">INSPIRATION</a></li>
+      <li><a href="mobler.html">MØBLER</a></li>
+      <li><a href="index.html">FORSIDE</a></li>
+    </nav>
+
+  </header>
+<article>
+<img src="img/imgInspiration/topinspiration.jpg" alt="inspiration" width="100%" height="220">
+
+<h2>Få inspiration til indretning</h2>
+  <p>
+For mange er det vigtigt at sætte sit eget præg på boligen, så det føles mere hjemligt og personligt.
+Hos Design Klassiker vil vi gerne gøre det nemt og tilgængeligt for dig at få din drømmebolig til at blive til virkelighed.
+Derfor sælger vi alt det der gør din bolig til et hjem med dit personlige præg.<br> Du kan i shoppen finde både lamper,
+tæpper, kunst og brugskunst.
+Både nyt og ældre, men alt sammen lækkert design af høj kvalitet, der er tilpasset vores <a href="møbler.html">møbelsortiment</a>.<br>
+Hvis du mangler tid eller inspiration til selv at indrette, book en tid med en af vores kompetente
+<a href="kontakt.html">indretningsarkitekter</a>, der står klar til at hjælpe med gode ideer til indretningen af et rum eller hele dit hjem.
+  </p>
+</article>
+<img src="img/imgInspiration/glasvaser.jpg" alt="glasvaser">
+<img src="img/imgInspiration/krukke.jpg" alt="krukke">
+<img src="img/imgInspiration/lamp.jpg" alt="lampe">
+<img src="img/imgInspiration/testel.jpg" alt="testel">
+
+  <footer>
+    <p><a href="kontakt.html">KONTAKT</a></p>
+    <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+  </footer>
+
+<script> /* javascript til at åbne menuen, når der klikkes på ☰-*/
+function openNav(){
+  document.getElementById("mynav").style.width = "100%";
+}
+function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
+  document.getElementById("mynav").style.width = "0%";
+}
+
+</script>
+
+</body>
+</html>

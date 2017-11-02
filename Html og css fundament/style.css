@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+  font-family: "sans open";
+}
+
+/*Wrapper*/
+
+body{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*Wrapper slut*/
+
+/*styre logoet*/
+img{
+  width: 4em;
+  height: auto;
+  float: left;
+  clear: both;
+  margin: 2%;
+}
+/*logo slut*/
+
+/*hamburger menu starter her*/
+.navi{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  }
+/*hvordan ser indholdet ud i hamburgermenuen*/
+.overlayer{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 10%;
+  margin-top: 30px;
+}
+/*hvordan linkene ser ud i overlay*/
+.navi a{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+/*giver farve nÃ¥r der holdes over indholdet*/
+.navi a:hover .navi a:focus{
+  color: #f1f1f1;
+}
+/*position af x/lukke knappen i menuen*/
+.navi .closebut{
+  position: absolute;
+  top: 15px;
+  right: 5%;
+  padding: 0;
+  font-size: 60px;
+}
+
+span{
+  display: block;
+  position: absolute;
+  right: 5%;
+  margin-top: 20px;
+  font-size: 2.5em;
+  color: #07395a;
+  cursor: pointer;
+  }
+  /*menuen slutter her*/
+  /*fjerner navigations*/
+  nav{
+    display: none;
+  }
+
+
+@media screen and (min-width: 620px) {
+
+  /*her er css delen i navigationsbaren*/
+nav{
+  display: block;
+  clear: left;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0px;
+  padding:0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+li{
+  float: left;
+  padding: 0% 2% 0% 2%;
+  border-right: 1px solid white;
+}
+
+li a{
+  display: block;
+  height: auto;
+  color: black;
+  padding: 5% 5%;
+  text-decoration: none;
+}
+
+/*slutter navigation*/
+Span{
+  display: none;
+}
+
+}
+
+@media screen and (min-width 1080px){
+
+
+
+
+}
